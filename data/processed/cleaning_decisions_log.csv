@@ -1,0 +1,6 @@
+step,decision,impacted_records,timestamp
+Deduplication,Identified and removed exact duplicates.,0,2026-09-24T01:20:14.653741
+Location Normalization,"Normalized all locations to standard Indian tech hubs (Bengaluru, NCR, Hyderabad, Pune, Mumbai, Chennai, Remote).",6500,2026-09-24T01:20:14.668315
+Experience Standardization,Parsed experience ranges and generated standardized 4-tier seniority brackets.,6500,2026-09-24T01:20:14.815366
+Salary Normalization & Imputation,Normalized all salary representations to INR LPA. Imputed 1070 undisclosed postings using conditional median by Role and Experience bracket.,1070,2026-09-24T01:20:14.981736
+Skill Normalization,Mapped raw skill strings to canonical dictionary with consistent casing.,6500,2026-09-24T01:20:15.165529

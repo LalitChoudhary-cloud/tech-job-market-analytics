@@ -1,0 +1,481 @@
+company_id,company_name,company_tier,industry
+COMP_0001,Wipro,IT_Consulting_Enterprise,EdTech & Consumer Internet
+COMP_0002,Urban Company,Product_Unicorn,Analytics & Consulting Services
+COMP_0003,EXL Analytics,Analytics_Specialist,EdTech & Consumer Internet
+COMP_0004,HCLTech,IT_Consulting_Enterprise,Analytics & Consulting Services
+COMP_0005,Morgan Stanley India,Global_GCC,SaaS & Enterprise Software
+COMP_0006,Quantiphi,Analytics_Specialist,"Logistics, Mobility & Supply Chain"
+COMP_0007,Deloitte India,IT_Consulting_Enterprise,SaaS & Enterprise Software
+COMP_0008,PwC India,IT_Consulting_Enterprise,SaaS & Enterprise Software
+COMP_0009,Capgemini India,IT_Consulting_Enterprise,Analytics & Consulting Services
+COMP_0010,Microsoft India,Global_GCC,EdTech & Consumer Internet
+COMP_0011,PayPal India,Global_GCC,Healthcare & HealthTech
+COMP_0012,Infosys,IT_Consulting_Enterprise,SaaS & Enterprise Software
+COMP_0013,Urban Company,Product_Unicorn,SaaS & Enterprise Software
+COMP_0014,Swiggy,Product_Unicorn,EdTech & Consumer Internet
+COMP_0015,Deloitte India,IT_Consulting_Enterprise,FinTech & Digital Banking
+COMP_0016,Accenture India,IT_Consulting_Enterprise,FinTech & Digital Banking
+COMP_0017,HCLTech,IT_Consulting_Enterprise,SaaS & Enterprise Software
+COMP_0018,Dream11,Product_Unicorn,Healthcare & HealthTech
+COMP_0019,HCLTech,IT_Consulting_Enterprise,EdTech & Consumer Internet
+COMP_0020,Course5 Intelligence,Analytics_Specialist,E-Commerce & Quick Commerce
+COMP_0021,Accenture India,IT_Consulting_Enterprise,Analytics & Consulting Services
+COMP_0022,PhonePe,Product_Unicorn,EdTech & Consumer Internet
+COMP_0023,Visa India,Global_GCC,"Logistics, Mobility & Supply Chain"
+COMP_0024,Paytm,Product_Unicorn,"Logistics, Mobility & Supply Chain"
+COMP_0025,Licious,Product_Unicorn,Healthcare & HealthTech
+COMP_0026,TCS,IT_Consulting_Enterprise,E-Commerce & Quick Commerce
+COMP_0027,KPMG India,IT_Consulting_Enterprise,FinTech & Digital Banking
+COMP_0028,Tech Mahindra,IT_Consulting_Enterprise,Healthcare & HealthTech
+COMP_0029,BrowserStack,Product_Unicorn,"Logistics, Mobility & Supply Chain"
+COMP_0030,TheMathCompany,Analytics_Specialist,EdTech & Consumer Internet
+COMP_0031,Course5 Intelligence,Analytics_Specialist,SaaS & Enterprise Software
+COMP_0032,LatentView Analytics,Analytics_Specialist,Analytics & Consulting Services
+COMP_0033,Groww,Product_Unicorn,EdTech & Consumer Internet
+COMP_0034,PwC India,IT_Consulting_Enterprise,Information Technology & Services
+COMP_0035,Ola,Product_Unicorn,"Logistics, Mobility & Supply Chain"
+COMP_0036,PayPal India,Global_GCC,"Logistics, Mobility & Supply Chain"
+COMP_0037,EXL Analytics,Analytics_Specialist,SaaS & Enterprise Software
+COMP_0038,Target India,Global_GCC,FinTech & Digital Banking
+COMP_0039,Morgan Stanley India,Global_GCC,Healthcare & HealthTech
+COMP_0040,Licious,Product_Unicorn,EdTech & Consumer Internet
+COMP_0041,HCLTech,IT_Consulting_Enterprise,Healthcare & HealthTech
+COMP_0042,Flipkart,Product_Unicorn,E-Commerce & Quick Commerce
+COMP_0043,Infosys,IT_Consulting_Enterprise,Information Technology & Services
+COMP_0044,Fractal Analytics,Analytics_Specialist,"Logistics, Mobility & Supply Chain"
+COMP_0045,Uber India,Global_GCC,E-Commerce & Quick Commerce
+COMP_0046,LTIMindtree,IT_Consulting_Enterprise,SaaS & Enterprise Software
+COMP_0047,CRED,Product_Unicorn,"Logistics, Mobility & Supply Chain"
+COMP_0048,Fractal Analytics,Analytics_Specialist,E-Commerce & Quick Commerce
+COMP_0049,Flipkart,Product_Unicorn,"Logistics, Mobility & Supply Chain"
+COMP_0050,PayPal India,Global_GCC,E-Commerce & Quick Commerce
+COMP_0051,Goldman Sachs India,Global_GCC,FinTech & Digital Banking
+COMP_0052,Cognizant India,IT_Consulting_Enterprise,Analytics & Consulting Services
+COMP_0053,Dream11,Product_Unicorn,EdTech & Consumer Internet
+COMP_0054,Tiger Analytics,Analytics_Specialist,E-Commerce & Quick Commerce
+COMP_0055,Chargebee,Product_Unicorn,E-Commerce & Quick Commerce
+COMP_0056,Flipkart,Product_Unicorn,EdTech & Consumer Internet
+COMP_0057,LatentView Analytics,Analytics_Specialist,Information Technology & Services
+COMP_0058,Deloitte India,IT_Consulting_Enterprise,Analytics & Consulting Services
+COMP_0059,Quantiphi,Analytics_Specialist,Analytics & Consulting Services
+COMP_0060,Meesho,Product_Unicorn,"Logistics, Mobility & Supply Chain"
+COMP_0061,Dream11,Product_Unicorn,E-Commerce & Quick Commerce
+COMP_0062,Capgemini India,IT_Consulting_Enterprise,SaaS & Enterprise Software
+COMP_0063,Fractal Analytics,Analytics_Specialist,SaaS & Enterprise Software
+COMP_0064,InMobi,Product_Unicorn,E-Commerce & Quick Commerce
+COMP_0065,PwC India,IT_Consulting_Enterprise,EdTech & Consumer Internet
+COMP_0066,Razorpay,Product_Unicorn,"Logistics, Mobility & Supply Chain"
+COMP_0067,Microsoft India,Global_GCC,FinTech & Digital Banking
+COMP_0068,Goldman Sachs India,Global_GCC,E-Commerce & Quick Commerce
+COMP_0069,Tech Mahindra,IT_Consulting_Enterprise,"Logistics, Mobility & Supply Chain"
+COMP_0070,Chargebee,Product_Unicorn,SaaS & Enterprise Software
+COMP_0071,Google India,Global_GCC,Information Technology & Services
+COMP_0072,Deloitte India,IT_Consulting_Enterprise,EdTech & Consumer Internet
+COMP_0073,Fractal Analytics,Analytics_Specialist,FinTech & Digital Banking
+COMP_0074,Google India,Global_GCC,Healthcare & HealthTech
+COMP_0075,Deloitte India,IT_Consulting_Enterprise,Healthcare & HealthTech
+COMP_0076,PhonePe,Product_Unicorn,SaaS & Enterprise Software
+COMP_0077,Zepto,Product_Unicorn,Information Technology & Services
+COMP_0078,Visa India,Global_GCC,FinTech & Digital Banking
+COMP_0079,Intuit India,Global_GCC,"Logistics, Mobility & Supply Chain"
+COMP_0080,InMobi,Product_Unicorn,FinTech & Digital Banking
+COMP_0081,LTIMindtree,IT_Consulting_Enterprise,"Logistics, Mobility & Supply Chain"
+COMP_0082,Licious,Product_Unicorn,FinTech & Digital Banking
+COMP_0083,Qualcomm India,Global_GCC,Information Technology & Services
+COMP_0084,Zomato,Product_Unicorn,Analytics & Consulting Services
+COMP_0085,TCS,IT_Consulting_Enterprise,SaaS & Enterprise Software
+COMP_0086,EXL Analytics,Analytics_Specialist,Healthcare & HealthTech
+COMP_0087,Paytm,Product_Unicorn,SaaS & Enterprise Software
+COMP_0088,KPMG India,IT_Consulting_Enterprise,SaaS & Enterprise Software
+COMP_0089,Walmart Global Tech,Global_GCC,FinTech & Digital Banking
+COMP_0090,Adobe India,Global_GCC,FinTech & Digital Banking
+COMP_0091,PwC India,IT_Consulting_Enterprise,FinTech & Digital Banking
+COMP_0092,Mu Sigma,Analytics_Specialist,EdTech & Consumer Internet
+COMP_0093,Capgemini India,IT_Consulting_Enterprise,E-Commerce & Quick Commerce
+COMP_0094,Cisco India,Global_GCC,Healthcare & HealthTech
+COMP_0095,Microsoft India,Global_GCC,SaaS & Enterprise Software
+COMP_0096,Cognizant India,IT_Consulting_Enterprise,E-Commerce & Quick Commerce
+COMP_0097,InMobi,Product_Unicorn,"Logistics, Mobility & Supply Chain"
+COMP_0098,Qualcomm India,Global_GCC,Healthcare & HealthTech
+COMP_0099,ZS Associates India,Analytics_Specialist,Healthcare & HealthTech
+COMP_0100,Cognizant India,IT_Consulting_Enterprise,EdTech & Consumer Internet
+COMP_0101,LTIMindtree,IT_Consulting_Enterprise,Healthcare & HealthTech
+COMP_0102,Paytm,Product_Unicorn,Analytics & Consulting Services
+COMP_0103,Flipkart,Product_Unicorn,Analytics & Consulting Services
+COMP_0104,Microsoft India,Global_GCC,Healthcare & HealthTech
+COMP_0105,HCLTech,IT_Consulting_Enterprise,E-Commerce & Quick Commerce
+COMP_0106,PhonePe,Product_Unicorn,Information Technology & Services
+COMP_0107,EXL Analytics,Analytics_Specialist,E-Commerce & Quick Commerce
+COMP_0108,Visa India,Global_GCC,Healthcare & HealthTech
+COMP_0109,Zepto,Product_Unicorn,FinTech & Digital Banking
+COMP_0110,Zerodha,Product_Unicorn,EdTech & Consumer Internet
+COMP_0111,CRED,Product_Unicorn,Information Technology & Services
+COMP_0112,JPMorgan Chase India,Global_GCC,SaaS & Enterprise Software
+COMP_0113,HCLTech,IT_Consulting_Enterprise,FinTech & Digital Banking
+COMP_0114,Visa India,Global_GCC,E-Commerce & Quick Commerce
+COMP_0115,PhonePe,Product_Unicorn,"Logistics, Mobility & Supply Chain"
+COMP_0116,Mu Sigma,Analytics_Specialist,Information Technology & Services
+COMP_0117,Target India,Global_GCC,"Logistics, Mobility & Supply Chain"
+COMP_0118,InMobi,Product_Unicorn,Information Technology & Services
+COMP_0119,EY India,IT_Consulting_Enterprise,Information Technology & Services
+COMP_0120,Target India,Global_GCC,Healthcare & HealthTech
+COMP_0121,ZS Associates India,Analytics_Specialist,Information Technology & Services
+COMP_0122,Infosys,IT_Consulting_Enterprise,FinTech & Digital Banking
+COMP_0123,Tredence,Analytics_Specialist,Healthcare & HealthTech
+COMP_0124,Razorpay,Product_Unicorn,EdTech & Consumer Internet
+COMP_0125,Intuit India,Global_GCC,E-Commerce & Quick Commerce
+COMP_0126,InMobi,Product_Unicorn,SaaS & Enterprise Software
+COMP_0127,BrowserStack,Product_Unicorn,E-Commerce & Quick Commerce
+COMP_0128,PhonePe,Product_Unicorn,Healthcare & HealthTech
+COMP_0129,TCS,IT_Consulting_Enterprise,"Logistics, Mobility & Supply Chain"
+COMP_0130,LTIMindtree,IT_Consulting_Enterprise,E-Commerce & Quick Commerce
+COMP_0131,Infosys,IT_Consulting_Enterprise,Healthcare & HealthTech
+COMP_0132,Infosys,IT_Consulting_Enterprise,E-Commerce & Quick Commerce
+COMP_0133,CRED,Product_Unicorn,EdTech & Consumer Internet
+COMP_0134,Postman,Product_Unicorn,"Logistics, Mobility & Supply Chain"
+COMP_0135,Intuit India,Global_GCC,Analytics & Consulting Services
+COMP_0136,Dream11,Product_Unicorn,Analytics & Consulting Services
+COMP_0137,Goldman Sachs India,Global_GCC,Healthcare & HealthTech
+COMP_0138,Swiggy,Product_Unicorn,E-Commerce & Quick Commerce
+COMP_0139,Amazon India,Global_GCC,SaaS & Enterprise Software
+COMP_0140,PayPal India,Global_GCC,SaaS & Enterprise Software
+COMP_0141,Chargebee,Product_Unicorn,EdTech & Consumer Internet
+COMP_0142,Microsoft India,Global_GCC,"Logistics, Mobility & Supply Chain"
+COMP_0143,Wipro,IT_Consulting_Enterprise,Information Technology & Services
+COMP_0144,TCS,IT_Consulting_Enterprise,Analytics & Consulting Services
+COMP_0145,KPMG India,IT_Consulting_Enterprise,Information Technology & Services
+COMP_0146,Razorpay,Product_Unicorn,Healthcare & HealthTech
+COMP_0147,Meesho,Product_Unicorn,EdTech & Consumer Internet
+COMP_0148,LTIMindtree,IT_Consulting_Enterprise,Information Technology & Services
+COMP_0149,Amazon India,Global_GCC,Healthcare & HealthTech
+COMP_0150,Tredence,Analytics_Specialist,Analytics & Consulting Services
+COMP_0151,Zepto,Product_Unicorn,"Logistics, Mobility & Supply Chain"
+COMP_0152,Course5 Intelligence,Analytics_Specialist,"Logistics, Mobility & Supply Chain"
+COMP_0153,Accenture India,IT_Consulting_Enterprise,EdTech & Consumer Internet
+COMP_0154,Tiger Analytics,Analytics_Specialist,SaaS & Enterprise Software
+COMP_0155,Capgemini India,IT_Consulting_Enterprise,Healthcare & HealthTech
+COMP_0156,Tech Mahindra,IT_Consulting_Enterprise,FinTech & Digital Banking
+COMP_0157,ZS Associates India,Analytics_Specialist,"Logistics, Mobility & Supply Chain"
+COMP_0158,Goldman Sachs India,Global_GCC,EdTech & Consumer Internet
+COMP_0159,Cognizant India,IT_Consulting_Enterprise,"Logistics, Mobility & Supply Chain"
+COMP_0160,Absolutdata (Infogain),Analytics_Specialist,E-Commerce & Quick Commerce
+COMP_0161,Swiggy,Product_Unicorn,SaaS & Enterprise Software
+COMP_0162,Visa India,Global_GCC,SaaS & Enterprise Software
+COMP_0163,Walmart Global Tech,Global_GCC,EdTech & Consumer Internet
+COMP_0164,Cisco India,Global_GCC,E-Commerce & Quick Commerce
+COMP_0165,Postman,Product_Unicorn,SaaS & Enterprise Software
+COMP_0166,Postman,Product_Unicorn,EdTech & Consumer Internet
+COMP_0167,Tiger Analytics,Analytics_Specialist,Analytics & Consulting Services
+COMP_0168,TCS,IT_Consulting_Enterprise,Healthcare & HealthTech
+COMP_0169,Tech Mahindra,IT_Consulting_Enterprise,EdTech & Consumer Internet
+COMP_0170,TCS,IT_Consulting_Enterprise,FinTech & Digital Banking
+COMP_0171,Accenture India,IT_Consulting_Enterprise,SaaS & Enterprise Software
+COMP_0172,Swiggy,Product_Unicorn,"Logistics, Mobility & Supply Chain"
+COMP_0173,KPMG India,IT_Consulting_Enterprise,Analytics & Consulting Services
+COMP_0174,BrowserStack,Product_Unicorn,Information Technology & Services
+COMP_0175,Cisco India,Global_GCC,EdTech & Consumer Internet
+COMP_0176,TCS,IT_Consulting_Enterprise,Information Technology & Services
+COMP_0177,Dream11,Product_Unicorn,FinTech & Digital Banking
+COMP_0178,Google India,Global_GCC,FinTech & Digital Banking
+COMP_0179,Salesforce India,Global_GCC,Healthcare & HealthTech
+COMP_0180,Wipro,IT_Consulting_Enterprise,E-Commerce & Quick Commerce
+COMP_0181,Oracle India,Global_GCC,EdTech & Consumer Internet
+COMP_0182,Wipro,IT_Consulting_Enterprise,Analytics & Consulting Services
+COMP_0183,Mu Sigma,Analytics_Specialist,FinTech & Digital Banking
+COMP_0184,Licious,Product_Unicorn,Analytics & Consulting Services
+COMP_0185,Infosys,IT_Consulting_Enterprise,Analytics & Consulting Services
+COMP_0186,Qualcomm India,Global_GCC,SaaS & Enterprise Software
+COMP_0187,Walmart Global Tech,Global_GCC,Information Technology & Services
+COMP_0188,TheMathCompany,Analytics_Specialist,SaaS & Enterprise Software
+COMP_0189,Accenture India,IT_Consulting_Enterprise,E-Commerce & Quick Commerce
+COMP_0190,Capgemini India,IT_Consulting_Enterprise,"Logistics, Mobility & Supply Chain"
+COMP_0191,LTIMindtree,IT_Consulting_Enterprise,EdTech & Consumer Internet
+COMP_0192,Postman,Product_Unicorn,FinTech & Digital Banking
+COMP_0193,Google India,Global_GCC,Analytics & Consulting Services
+COMP_0194,Meesho,Product_Unicorn,FinTech & Digital Banking
+COMP_0195,Zomato,Product_Unicorn,"Logistics, Mobility & Supply Chain"
+COMP_0196,Paytm,Product_Unicorn,E-Commerce & Quick Commerce
+COMP_0197,PhonePe,Product_Unicorn,FinTech & Digital Banking
+COMP_0198,Tiger Analytics,Analytics_Specialist,FinTech & Digital Banking
+COMP_0199,Oracle India,Global_GCC,E-Commerce & Quick Commerce
+COMP_0200,Oracle India,Global_GCC,SaaS & Enterprise Software
+COMP_0201,Zomato,Product_Unicorn,Healthcare & HealthTech
+COMP_0202,EY India,IT_Consulting_Enterprise,E-Commerce & Quick Commerce
+COMP_0203,PwC India,IT_Consulting_Enterprise,E-Commerce & Quick Commerce
+COMP_0204,Licious,Product_Unicorn,"Logistics, Mobility & Supply Chain"
+COMP_0205,Course5 Intelligence,Analytics_Specialist,Analytics & Consulting Services
+COMP_0206,Cisco India,Global_GCC,"Logistics, Mobility & Supply Chain"
+COMP_0207,Absolutdata (Infogain),Analytics_Specialist,SaaS & Enterprise Software
+COMP_0208,Zerodha,Product_Unicorn,FinTech & Digital Banking
+COMP_0209,Postman,Product_Unicorn,Healthcare & HealthTech
+COMP_0210,Tredence,Analytics_Specialist,"Logistics, Mobility & Supply Chain"
+COMP_0211,PwC India,IT_Consulting_Enterprise,Healthcare & HealthTech
+COMP_0212,PayPal India,Global_GCC,Analytics & Consulting Services
+COMP_0213,Accenture India,IT_Consulting_Enterprise,"Logistics, Mobility & Supply Chain"
+COMP_0214,Google India,Global_GCC,"Logistics, Mobility & Supply Chain"
+COMP_0215,Wipro,IT_Consulting_Enterprise,SaaS & Enterprise Software
+COMP_0216,Meesho,Product_Unicorn,Information Technology & Services
+COMP_0217,Intuit India,Global_GCC,Healthcare & HealthTech
+COMP_0218,Walmart Global Tech,Global_GCC,"Logistics, Mobility & Supply Chain"
+COMP_0219,Salesforce India,Global_GCC,EdTech & Consumer Internet
+COMP_0220,Visa India,Global_GCC,Analytics & Consulting Services
+COMP_0221,Cognizant India,IT_Consulting_Enterprise,FinTech & Digital Banking
+COMP_0222,Adobe India,Global_GCC,Analytics & Consulting Services
+COMP_0223,EY India,IT_Consulting_Enterprise,Analytics & Consulting Services
+COMP_0224,CRED,Product_Unicorn,FinTech & Digital Banking
+COMP_0225,Qualcomm India,Global_GCC,E-Commerce & Quick Commerce
+COMP_0226,JPMorgan Chase India,Global_GCC,Information Technology & Services
+COMP_0227,BrowserStack,Product_Unicorn,SaaS & Enterprise Software
+COMP_0228,Postman,Product_Unicorn,Analytics & Consulting Services
+COMP_0229,Urban Company,Product_Unicorn,FinTech & Digital Banking
+COMP_0230,Wipro,IT_Consulting_Enterprise,FinTech & Digital Banking
+COMP_0231,BrowserStack,Product_Unicorn,EdTech & Consumer Internet
+COMP_0232,Target India,Global_GCC,Analytics & Consulting Services
+COMP_0233,LTIMindtree,IT_Consulting_Enterprise,FinTech & Digital Banking
+COMP_0234,JPMorgan Chase India,Global_GCC,Analytics & Consulting Services
+COMP_0235,TheMathCompany,Analytics_Specialist,Healthcare & HealthTech
+COMP_0236,Salesforce India,Global_GCC,"Logistics, Mobility & Supply Chain"
+COMP_0237,Absolutdata (Infogain),Analytics_Specialist,Information Technology & Services
+COMP_0238,Paytm,Product_Unicorn,Information Technology & Services
+COMP_0239,Zerodha,Product_Unicorn,SaaS & Enterprise Software
+COMP_0240,JPMorgan Chase India,Global_GCC,FinTech & Digital Banking
+COMP_0241,Mu Sigma,Analytics_Specialist,"Logistics, Mobility & Supply Chain"
+COMP_0242,HCLTech,IT_Consulting_Enterprise,"Logistics, Mobility & Supply Chain"
+COMP_0243,EY India,IT_Consulting_Enterprise,Healthcare & HealthTech
+COMP_0244,LatentView Analytics,Analytics_Specialist,E-Commerce & Quick Commerce
+COMP_0245,Salesforce India,Global_GCC,SaaS & Enterprise Software
+COMP_0246,Amazon India,Global_GCC,FinTech & Digital Banking
+COMP_0247,Adobe India,Global_GCC,EdTech & Consumer Internet
+COMP_0248,Zepto,Product_Unicorn,Healthcare & HealthTech
+COMP_0249,Quantiphi,Analytics_Specialist,E-Commerce & Quick Commerce
+COMP_0250,Groww,Product_Unicorn,E-Commerce & Quick Commerce
+COMP_0251,Intuit India,Global_GCC,SaaS & Enterprise Software
+COMP_0252,EXL Analytics,Analytics_Specialist,"Logistics, Mobility & Supply Chain"
+COMP_0253,Cognizant India,IT_Consulting_Enterprise,SaaS & Enterprise Software
+COMP_0254,PayPal India,Global_GCC,FinTech & Digital Banking
+COMP_0255,EY India,IT_Consulting_Enterprise,"Logistics, Mobility & Supply Chain"
+COMP_0256,KPMG India,IT_Consulting_Enterprise,"Logistics, Mobility & Supply Chain"
+COMP_0257,Uber India,Global_GCC,SaaS & Enterprise Software
+COMP_0258,Cisco India,Global_GCC,FinTech & Digital Banking
+COMP_0259,Fractal Analytics,Analytics_Specialist,Analytics & Consulting Services
+COMP_0260,Tredence,Analytics_Specialist,FinTech & Digital Banking
+COMP_0261,Chargebee,Product_Unicorn,"Logistics, Mobility & Supply Chain"
+COMP_0262,CRED,Product_Unicorn,Analytics & Consulting Services
+COMP_0263,KPMG India,IT_Consulting_Enterprise,Healthcare & HealthTech
+COMP_0264,Morgan Stanley India,Global_GCC,E-Commerce & Quick Commerce
+COMP_0265,Ola,Product_Unicorn,SaaS & Enterprise Software
+COMP_0266,Quantiphi,Analytics_Specialist,Healthcare & HealthTech
+COMP_0267,Groww,Product_Unicorn,Information Technology & Services
+COMP_0268,HCLTech,IT_Consulting_Enterprise,Information Technology & Services
+COMP_0269,Flipkart,Product_Unicorn,Information Technology & Services
+COMP_0270,Accenture India,IT_Consulting_Enterprise,Healthcare & HealthTech
+COMP_0271,Razorpay,Product_Unicorn,Analytics & Consulting Services
+COMP_0272,Mu Sigma,Analytics_Specialist,Analytics & Consulting Services
+COMP_0273,Absolutdata (Infogain),Analytics_Specialist,"Logistics, Mobility & Supply Chain"
+COMP_0274,Tredence,Analytics_Specialist,Information Technology & Services
+COMP_0275,Accenture India,IT_Consulting_Enterprise,Information Technology & Services
+COMP_0276,Oracle India,Global_GCC,Information Technology & Services
+COMP_0277,Walmart Global Tech,Global_GCC,E-Commerce & Quick Commerce
+COMP_0278,Uber India,Global_GCC,FinTech & Digital Banking
+COMP_0279,Zerodha,Product_Unicorn,Analytics & Consulting Services
+COMP_0280,Zomato,Product_Unicorn,EdTech & Consumer Internet
+COMP_0281,Target India,Global_GCC,SaaS & Enterprise Software
+COMP_0282,CRED,Product_Unicorn,Healthcare & HealthTech
+COMP_0283,Uber India,Global_GCC,Information Technology & Services
+COMP_0284,Meesho,Product_Unicorn,Analytics & Consulting Services
+COMP_0285,Mu Sigma,Analytics_Specialist,E-Commerce & Quick Commerce
+COMP_0286,Capgemini India,IT_Consulting_Enterprise,Information Technology & Services
+COMP_0287,Tech Mahindra,IT_Consulting_Enterprise,SaaS & Enterprise Software
+COMP_0288,Adobe India,Global_GCC,Information Technology & Services
+COMP_0289,Morgan Stanley India,Global_GCC,EdTech & Consumer Internet
+COMP_0290,Salesforce India,Global_GCC,FinTech & Digital Banking
+COMP_0291,Uber India,Global_GCC,"Logistics, Mobility & Supply Chain"
+COMP_0292,Adobe India,Global_GCC,E-Commerce & Quick Commerce
+COMP_0293,JPMorgan Chase India,Global_GCC,Healthcare & HealthTech
+COMP_0294,Morgan Stanley India,Global_GCC,"Logistics, Mobility & Supply Chain"
+COMP_0295,PwC India,IT_Consulting_Enterprise,"Logistics, Mobility & Supply Chain"
+COMP_0296,JPMorgan Chase India,Global_GCC,EdTech & Consumer Internet
+COMP_0297,InMobi,Product_Unicorn,Healthcare & HealthTech
+COMP_0298,Deloitte India,IT_Consulting_Enterprise,E-Commerce & Quick Commerce
+COMP_0299,EY India,IT_Consulting_Enterprise,SaaS & Enterprise Software
+COMP_0300,Goldman Sachs India,Global_GCC,Information Technology & Services
+COMP_0301,Deloitte India,IT_Consulting_Enterprise,Information Technology & Services
+COMP_0302,Urban Company,Product_Unicorn,Information Technology & Services
+COMP_0303,JPMorgan Chase India,Global_GCC,"Logistics, Mobility & Supply Chain"
+COMP_0304,Groww,Product_Unicorn,FinTech & Digital Banking
+COMP_0305,Salesforce India,Global_GCC,E-Commerce & Quick Commerce
+COMP_0306,InMobi,Product_Unicorn,Analytics & Consulting Services
+COMP_0307,Tredence,Analytics_Specialist,EdTech & Consumer Internet
+COMP_0308,Adobe India,Global_GCC,SaaS & Enterprise Software
+COMP_0309,KPMG India,IT_Consulting_Enterprise,EdTech & Consumer Internet
+COMP_0310,Postman,Product_Unicorn,E-Commerce & Quick Commerce
+COMP_0311,Target India,Global_GCC,EdTech & Consumer Internet
+COMP_0312,LatentView Analytics,Analytics_Specialist,SaaS & Enterprise Software
+COMP_0313,Zepto,Product_Unicorn,Analytics & Consulting Services
+COMP_0314,Groww,Product_Unicorn,SaaS & Enterprise Software
+COMP_0315,Intuit India,Global_GCC,FinTech & Digital Banking
+COMP_0316,Zomato,Product_Unicorn,E-Commerce & Quick Commerce
+COMP_0317,Deloitte India,IT_Consulting_Enterprise,"Logistics, Mobility & Supply Chain"
+COMP_0318,Intuit India,Global_GCC,EdTech & Consumer Internet
+COMP_0319,Tiger Analytics,Analytics_Specialist,Healthcare & HealthTech
+COMP_0320,Groww,Product_Unicorn,Healthcare & HealthTech
+COMP_0321,Urban Company,Product_Unicorn,Healthcare & HealthTech
+COMP_0322,LatentView Analytics,Analytics_Specialist,"Logistics, Mobility & Supply Chain"
+COMP_0323,Microsoft India,Global_GCC,Information Technology & Services
+COMP_0324,Salesforce India,Global_GCC,Information Technology & Services
+COMP_0325,Qualcomm India,Global_GCC,EdTech & Consumer Internet
+COMP_0326,Quantiphi,Analytics_Specialist,FinTech & Digital Banking
+COMP_0327,Urban Company,Product_Unicorn,E-Commerce & Quick Commerce
+COMP_0328,Infosys,IT_Consulting_Enterprise,EdTech & Consumer Internet
+COMP_0329,Meesho,Product_Unicorn,Healthcare & HealthTech
+COMP_0330,LatentView Analytics,Analytics_Specialist,FinTech & Digital Banking
+COMP_0331,Tech Mahindra,IT_Consulting_Enterprise,Analytics & Consulting Services
+COMP_0332,Infosys,IT_Consulting_Enterprise,"Logistics, Mobility & Supply Chain"
+COMP_0333,Fractal Analytics,Analytics_Specialist,Information Technology & Services
+COMP_0334,Chargebee,Product_Unicorn,Healthcare & HealthTech
+COMP_0335,Adobe India,Global_GCC,Healthcare & HealthTech
+COMP_0336,ZS Associates India,Analytics_Specialist,FinTech & Digital Banking
+COMP_0337,Zepto,Product_Unicorn,SaaS & Enterprise Software
+COMP_0338,PwC India,IT_Consulting_Enterprise,Analytics & Consulting Services
+COMP_0339,Absolutdata (Infogain),Analytics_Specialist,FinTech & Digital Banking
+COMP_0340,Absolutdata (Infogain),Analytics_Specialist,EdTech & Consumer Internet
+COMP_0341,ZS Associates India,Analytics_Specialist,Analytics & Consulting Services
+COMP_0342,Meesho,Product_Unicorn,SaaS & Enterprise Software
+COMP_0343,InMobi,Product_Unicorn,EdTech & Consumer Internet
+COMP_0344,Zerodha,Product_Unicorn,"Logistics, Mobility & Supply Chain"
+COMP_0345,TCS,IT_Consulting_Enterprise,EdTech & Consumer Internet
+COMP_0346,Walmart Global Tech,Global_GCC,SaaS & Enterprise Software
+COMP_0347,BrowserStack,Product_Unicorn,Analytics & Consulting Services
+COMP_0348,Razorpay,Product_Unicorn,E-Commerce & Quick Commerce
+COMP_0349,Paytm,Product_Unicorn,FinTech & Digital Banking
+COMP_0350,Licious,Product_Unicorn,Information Technology & Services
+COMP_0351,Google India,Global_GCC,SaaS & Enterprise Software
+COMP_0352,Zomato,Product_Unicorn,Information Technology & Services
+COMP_0353,Amazon India,Global_GCC,Analytics & Consulting Services
+COMP_0354,Cisco India,Global_GCC,Analytics & Consulting Services
+COMP_0355,CRED,Product_Unicorn,SaaS & Enterprise Software
+COMP_0356,Cognizant India,IT_Consulting_Enterprise,Information Technology & Services
+COMP_0357,Cognizant India,IT_Consulting_Enterprise,Healthcare & HealthTech
+COMP_0358,Tredence,Analytics_Specialist,SaaS & Enterprise Software
+COMP_0359,Capgemini India,IT_Consulting_Enterprise,FinTech & Digital Banking
+COMP_0360,Zerodha,Product_Unicorn,Information Technology & Services
+COMP_0361,TheMathCompany,Analytics_Specialist,E-Commerce & Quick Commerce
+COMP_0362,Meesho,Product_Unicorn,E-Commerce & Quick Commerce
+COMP_0363,Razorpay,Product_Unicorn,Information Technology & Services
+COMP_0364,Google India,Global_GCC,E-Commerce & Quick Commerce
+COMP_0365,Swiggy,Product_Unicorn,Information Technology & Services
+COMP_0366,Wipro,IT_Consulting_Enterprise,"Logistics, Mobility & Supply Chain"
+COMP_0367,Urban Company,Product_Unicorn,"Logistics, Mobility & Supply Chain"
+COMP_0368,EXL Analytics,Analytics_Specialist,Information Technology & Services
+COMP_0369,EXL Analytics,Analytics_Specialist,Analytics & Consulting Services
+COMP_0370,Adobe India,Global_GCC,"Logistics, Mobility & Supply Chain"
+COMP_0371,Amazon India,Global_GCC,"Logistics, Mobility & Supply Chain"
+COMP_0372,Dream11,Product_Unicorn,Information Technology & Services
+COMP_0373,Ola,Product_Unicorn,Healthcare & HealthTech
+COMP_0374,PhonePe,Product_Unicorn,E-Commerce & Quick Commerce
+COMP_0375,Walmart Global Tech,Global_GCC,Healthcare & HealthTech
+COMP_0376,Uber India,Global_GCC,Analytics & Consulting Services
+COMP_0377,Ola,Product_Unicorn,Analytics & Consulting Services
+COMP_0378,Absolutdata (Infogain),Analytics_Specialist,Healthcare & HealthTech
+COMP_0379,Dream11,Product_Unicorn,"Logistics, Mobility & Supply Chain"
+COMP_0380,Target India,Global_GCC,Information Technology & Services
+COMP_0381,PayPal India,Global_GCC,Information Technology & Services
+COMP_0382,Quantiphi,Analytics_Specialist,SaaS & Enterprise Software
+COMP_0383,Absolutdata (Infogain),Analytics_Specialist,Analytics & Consulting Services
+COMP_0384,Wipro,IT_Consulting_Enterprise,Healthcare & HealthTech
+COMP_0385,Amazon India,Global_GCC,Information Technology & Services
+COMP_0386,Quantiphi,Analytics_Specialist,EdTech & Consumer Internet
+COMP_0387,Course5 Intelligence,Analytics_Specialist,EdTech & Consumer Internet
+COMP_0388,Flipkart,Product_Unicorn,FinTech & Digital Banking
+COMP_0389,Goldman Sachs India,Global_GCC,SaaS & Enterprise Software
+COMP_0390,Tech Mahindra,IT_Consulting_Enterprise,E-Commerce & Quick Commerce
+COMP_0391,Flipkart,Product_Unicorn,SaaS & Enterprise Software
+COMP_0392,Groww,Product_Unicorn,Analytics & Consulting Services
+COMP_0393,Zepto,Product_Unicorn,EdTech & Consumer Internet
+COMP_0394,Morgan Stanley India,Global_GCC,FinTech & Digital Banking
+COMP_0395,Tech Mahindra,IT_Consulting_Enterprise,Information Technology & Services
+COMP_0396,LTIMindtree,IT_Consulting_Enterprise,Analytics & Consulting Services
+COMP_0397,Google India,Global_GCC,EdTech & Consumer Internet
+COMP_0398,Mu Sigma,Analytics_Specialist,Healthcare & HealthTech
+COMP_0399,Cisco India,Global_GCC,Information Technology & Services
+COMP_0400,Razorpay,Product_Unicorn,SaaS & Enterprise Software
+COMP_0401,Zerodha,Product_Unicorn,Healthcare & HealthTech
+COMP_0402,Tredence,Analytics_Specialist,E-Commerce & Quick Commerce
+COMP_0403,Dream11,Product_Unicorn,SaaS & Enterprise Software
+COMP_0404,Capgemini India,IT_Consulting_Enterprise,EdTech & Consumer Internet
+COMP_0405,Walmart Global Tech,Global_GCC,Analytics & Consulting Services
+COMP_0406,TheMathCompany,Analytics_Specialist,Information Technology & Services
+COMP_0407,ZS Associates India,Analytics_Specialist,EdTech & Consumer Internet
+COMP_0408,Microsoft India,Global_GCC,E-Commerce & Quick Commerce
+COMP_0409,PhonePe,Product_Unicorn,Analytics & Consulting Services
+COMP_0410,Qualcomm India,Global_GCC,FinTech & Digital Banking
+COMP_0411,Oracle India,Global_GCC,FinTech & Digital Banking
+COMP_0412,Course5 Intelligence,Analytics_Specialist,FinTech & Digital Banking
+COMP_0413,Licious,Product_Unicorn,E-Commerce & Quick Commerce
+COMP_0414,Chargebee,Product_Unicorn,FinTech & Digital Banking
+COMP_0415,Zomato,Product_Unicorn,FinTech & Digital Banking
+COMP_0416,LatentView Analytics,Analytics_Specialist,Healthcare & HealthTech
+COMP_0417,Visa India,Global_GCC,EdTech & Consumer Internet
+COMP_0418,Ola,Product_Unicorn,Information Technology & Services
+COMP_0419,Zomato,Product_Unicorn,SaaS & Enterprise Software
+COMP_0420,BrowserStack,Product_Unicorn,FinTech & Digital Banking
+COMP_0421,Salesforce India,Global_GCC,Analytics & Consulting Services
+COMP_0422,Morgan Stanley India,Global_GCC,Analytics & Consulting Services
+COMP_0423,Microsoft India,Global_GCC,Analytics & Consulting Services
+COMP_0424,Goldman Sachs India,Global_GCC,"Logistics, Mobility & Supply Chain"
+COMP_0425,CRED,Product_Unicorn,E-Commerce & Quick Commerce
+COMP_0426,Ola,Product_Unicorn,E-Commerce & Quick Commerce
+COMP_0427,JPMorgan Chase India,Global_GCC,E-Commerce & Quick Commerce
+COMP_0428,Uber India,Global_GCC,EdTech & Consumer Internet
+COMP_0429,Zepto,Product_Unicorn,E-Commerce & Quick Commerce
+COMP_0430,KPMG India,IT_Consulting_Enterprise,E-Commerce & Quick Commerce
+COMP_0431,Cisco India,Global_GCC,SaaS & Enterprise Software
+COMP_0432,Uber India,Global_GCC,Healthcare & HealthTech
+COMP_0433,Course5 Intelligence,Analytics_Specialist,Information Technology & Services
+COMP_0434,EXL Analytics,Analytics_Specialist,FinTech & Digital Banking
+COMP_0435,Amazon India,Global_GCC,EdTech & Consumer Internet
+COMP_0436,Tiger Analytics,Analytics_Specialist,Information Technology & Services
+COMP_0437,Tiger Analytics,Analytics_Specialist,EdTech & Consumer Internet
+COMP_0438,Groww,Product_Unicorn,"Logistics, Mobility & Supply Chain"
+COMP_0439,Chargebee,Product_Unicorn,Information Technology & Services
+COMP_0440,Qualcomm India,Global_GCC,"Logistics, Mobility & Supply Chain"
+COMP_0441,BrowserStack,Product_Unicorn,Healthcare & HealthTech
+COMP_0442,Paytm,Product_Unicorn,Healthcare & HealthTech
+COMP_0443,Urban Company,Product_Unicorn,EdTech & Consumer Internet
+COMP_0444,TheMathCompany,Analytics_Specialist,Analytics & Consulting Services
+COMP_0445,Oracle India,Global_GCC,Healthcare & HealthTech
+COMP_0446,Oracle India,Global_GCC,"Logistics, Mobility & Supply Chain"
+COMP_0447,Paytm,Product_Unicorn,EdTech & Consumer Internet
+COMP_0448,Ola,Product_Unicorn,FinTech & Digital Banking
+COMP_0449,Zerodha,Product_Unicorn,E-Commerce & Quick Commerce
+COMP_0450,Target India,Global_GCC,E-Commerce & Quick Commerce
+COMP_0451,Tiger Analytics,Analytics_Specialist,"Logistics, Mobility & Supply Chain"
+COMP_0452,EY India,IT_Consulting_Enterprise,FinTech & Digital Banking
+COMP_0453,ZS Associates India,Analytics_Specialist,E-Commerce & Quick Commerce
+COMP_0454,TheMathCompany,Analytics_Specialist,FinTech & Digital Banking
+COMP_0455,Postman,Product_Unicorn,Information Technology & Services
+COMP_0456,Mu Sigma,Analytics_Specialist,SaaS & Enterprise Software
+COMP_0457,Course5 Intelligence,Analytics_Specialist,Healthcare & HealthTech
+COMP_0458,Fractal Analytics,Analytics_Specialist,Healthcare & HealthTech
+COMP_0459,Flipkart,Product_Unicorn,Healthcare & HealthTech
+COMP_0460,Razorpay,Product_Unicorn,FinTech & Digital Banking
+COMP_0461,Intuit India,Global_GCC,Information Technology & Services
+COMP_0462,ZS Associates India,Analytics_Specialist,SaaS & Enterprise Software
+COMP_0463,Ola,Product_Unicorn,EdTech & Consumer Internet
+COMP_0464,Swiggy,Product_Unicorn,Healthcare & HealthTech
+COMP_0465,Visa India,Global_GCC,Information Technology & Services
+COMP_0466,EY India,IT_Consulting_Enterprise,EdTech & Consumer Internet
+COMP_0467,PayPal India,Global_GCC,EdTech & Consumer Internet
+COMP_0468,TheMathCompany,Analytics_Specialist,"Logistics, Mobility & Supply Chain"
+COMP_0469,Qualcomm India,Global_GCC,Analytics & Consulting Services
+COMP_0470,Swiggy,Product_Unicorn,Analytics & Consulting Services
+COMP_0471,Swiggy,Product_Unicorn,FinTech & Digital Banking
+COMP_0472,Morgan Stanley India,Global_GCC,Information Technology & Services
+COMP_0473,Chargebee,Product_Unicorn,Analytics & Consulting Services
+COMP_0474,Licious,Product_Unicorn,SaaS & Enterprise Software
+COMP_0475,Goldman Sachs India,Global_GCC,Analytics & Consulting Services
+COMP_0476,Fractal Analytics,Analytics_Specialist,EdTech & Consumer Internet
+COMP_0477,LatentView Analytics,Analytics_Specialist,EdTech & Consumer Internet
+COMP_0478,Quantiphi,Analytics_Specialist,Information Technology & Services
+COMP_0479,Oracle India,Global_GCC,Analytics & Consulting Services
+COMP_0480,Amazon India,Global_GCC,E-Commerce & Quick Commerce

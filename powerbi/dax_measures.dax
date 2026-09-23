@@ -1,0 +1,135 @@
+// =============================================================================
+// Tech Job Market & Salary Intelligence Platform (India)
+// Power BI DAX Measures Library
+// Formatted, commented DAX formulas for Star-Schema Data Model
+// =============================================================================
+
+// =============================================================================
+// SECTION 1: CORE KPI MEASURES
+// =============================================================================
+
+// 1.1 Total Job Postings
+Total Jobs = 
+COUNTROWS(fact_jobs)
+
+// 1.2 Total Unique Companies
+Total Companies = 
+DISTINCTCOUNT(fact_jobs[company_id])
+
+// 1.3 Total Hiring Locations / Cities
+Total Locations = 
+DISTINCTCOUNT(fact_jobs[location_id])
+
+// 1.4 Average Salary in INR Lakhs per Annum (LPA)
+Average Salary LPA = 
+AVERAGE(fact_jobs[avg_salary_lpa])
+
+// 1.5 Median Salary in INR LPA
+Median Salary LPA = 
+MEDIAN(fact_jobs[avg_salary_lpa])
+
+// 1.6 Average Experience Required (Years)
+Average Experience = 
+AVERAGE(fact_jobs[experience_avg])
+
+// 1.7 Minimum Salary (Lower Bound)
+Min Salary LPA = 
+MIN(fact_jobs[min_salary_lpa])
+
+// 1.8 Maximum Salary (Upper Bound)
+Max Salary LPA = 
+MAX(fact_jobs[max_salary_lpa])
+
+
+// =============================================================================
+// SECTION 2: PERCENTAGE SHARES & RATIOS
+// =============================================================================
+
+// 2.1 Job Share % of Total Market (Ignores current visual filter)
+Job Share % = 
+DIVIDE(
+    [Total Jobs],
+    CALCULATE([Total Jobs], ALL(fact_jobs)),
+    0
+)
+
+// 2.2 Role Share % (Relative to filtered context)
+Role Share % = 
+DIVIDE(
+    [Total Jobs],
+    CALCULATE([Total Jobs], ALLSELECTED(dim_roles[role_category])),
+    0
+)
+
+// 2.3 Skill Demand Penetration % (Percentage of jobs requiring a skill)
+Skill Demand % = 
+DIVIDE(
+    DISTINCTCOUNT(fact_job_skills[job_id]),
+    CALCULATE([Total Jobs], ALL(dim_skills)),
+    0
+)
+
+// 2.4 Imputed Salary Share %
+Imputed Salary % = 
+DIVIDE(
+    CALCULATE([Total Jobs], fact_jobs[is_salary_imputed] = 1),
+    [Total Jobs],
+    0
+)
+
+
+// =============================================================================
+// SECTION 3: TIME INTELLIGENCE & GROWTH DYNAMICS
+// =============================================================================
+
+// 3.1 Prior Month Jobs (MoM Calculation)
+Previous Month Jobs = 
+CALCULATE(
+    [Total Jobs],
+    PREVIOUSMONTH(dim_dates[full_date])
+)
+
+// 3.2 Month-over-Month Job Growth %
+MoM Job Growth % = 
+DIVIDE(
+    [Total Jobs] - [Previous Month Jobs],
+    [Previous Month Jobs],
+    0
+)
+
+
+// =============================================================================
+// SECTION 4: ROLE SPECIFIC & BENCHMARK COMPARISONS
+// =============================================================================
+
+// 4.1 SDE Average Salary Benchmark
+SDE Avg Salary = 
+CALCULATE(
+    [Average Salary LPA],
+    dim_roles[role_category] = "Software Development Engineer"
+)
+
+// 4.2 Data Analyst Average Salary Benchmark
+Data Analyst Avg Salary = 
+CALCULATE(
+    [Average Salary LPA],
+    dim_roles[role_category] = "Data Analyst"
+)
+
+// 4.3 Data Scientist Average Salary Benchmark
+Data Scientist Avg Salary = 
+CALCULATE(
+    [Average Salary LPA],
+    dim_roles[role_category] = "Data Scientist"
+)
+
+// 4.4 AI/ML Engineer Average Salary Benchmark
+AIML Engineer Avg Salary = 
+CALCULATE(
+    [Average Salary LPA],
+    dim_roles[role_category] = "AI/ML Engineer"
+)
+
+// 4.5 Salary Premium vs Market Average (Difference from overall average)
+Salary Premium LPA = 
+[Average Salary LPA] - CALCULATE([Average Salary LPA], ALL(dim_roles))

@@ -1,0 +1,10 @@
+location_id,city,state,country,location_type
+LOC_001,Bengaluru,Karnataka,India,Tier-1 Hub
+LOC_002,Pune,Maharashtra,India,Tier-1 Hub
+LOC_003,Delhi NCR,Haryana,India,Tier-1 Hub
+LOC_004,Hyderabad,Telangana,India,Tier-1 Hub
+LOC_005,Delhi NCR,Uttar Pradesh,India,Tier-1 Hub
+LOC_006,Chennai,Tamil Nadu,India,Tier-1 Hub
+LOC_007,Delhi NCR,Delhi,India,Tier-1 Hub
+LOC_008,Mumbai,Maharashtra,India,Tier-1 Hub
+LOC_009,Remote,India,India,Remote

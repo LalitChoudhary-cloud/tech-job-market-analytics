@@ -1,0 +1,66 @@
+skill_id,skill_name,skill_category
+SKILL_0001,A,Other Technical Skills
+SKILL_0002,AWS,Data Engineering & Cloud
+SKILL_0003,Alteryx,Data Analysis & BI
+SKILL_0004,Apache Kafka,Data Engineering & Cloud
+SKILL_0005,Apache Spark,Data Engineering & Cloud
+SKILL_0006,Aws Sagemaker,Other Technical Skills
+SKILL_0007,B Testing,Other Technical Skills
+SKILL_0008,BigQuery,Data Engineering & Cloud
+SKILL_0009,Business Analysis,Other Technical Skills
+SKILL_0010,C++,Programming & Frameworks
+SKILL_0011,Cd,Other Technical Skills
+SKILL_0012,Ci,Other Technical Skills
+SKILL_0013,Communication,Other Technical Skills
+SKILL_0014,Computer Vision,AI / ML & Advanced Analytics
+SKILL_0015,DAX,Data Analysis & BI
+SKILL_0016,Data Modeling,Data Analysis & BI
+SKILL_0017,Data Storytelling,Data Analysis & BI
+SKILL_0018,Data Visualization,Other Technical Skills
+SKILL_0019,Deep Learning,AI / ML & Advanced Analytics
+SKILL_0020,Docker,Data Engineering & Cloud
+SKILL_0021,Etl,Other Technical Skills
+SKILL_0022,Excel,Data Analysis & BI
+SKILL_0023,FastAPI,Programming & Frameworks
+SKILL_0024,Feature Engineering,Other Technical Skills
+SKILL_0025,Fine-Tuning,Other Technical Skills
+SKILL_0026,Git,Data Engineering & Cloud
+SKILL_0027,Go,Programming & Frameworks
+SKILL_0028,Graphql,Other Technical Skills
+SKILL_0029,Hypothesis Testing,Other Technical Skills
+SKILL_0030,Java,Programming & Frameworks
+SKILL_0031,Kubernetes,Data Engineering & Cloud
+SKILL_0032,LLMs,AI / ML & Advanced Analytics
+SKILL_0033,LangChain,AI / ML & Advanced Analytics
+SKILL_0034,Looker,Data Analysis & BI
+SKILL_0035,MLOps,AI / ML & Advanced Analytics
+SKILL_0036,Machine Learning,AI / ML & Advanced Analytics
+SKILL_0037,Microservices,Data Engineering & Cloud
+SKILL_0038,Mlflow,Other Technical Skills
+SKILL_0039,MySQL,Data Engineering & Cloud
+SKILL_0040,NLP,AI / ML & Advanced Analytics
+SKILL_0041,Node.js,Programming & Frameworks
+SKILL_0042,NumPy,AI / ML & Advanced Analytics
+SKILL_0043,Onnx,Other Technical Skills
+SKILL_0044,Pandas,AI / ML & Advanced Analytics
+SKILL_0045,PostgreSQL,Data Engineering & Cloud
+SKILL_0046,Power BI,Data Analysis & BI
+SKILL_0047,Problem Solving,Other Technical Skills
+SKILL_0048,PyTorch,AI / ML & Advanced Analytics
+SKILL_0049,Python,Programming & Frameworks
+SKILL_0050,R,Programming & Frameworks
+SKILL_0051,REST APIs,Other Technical Skills
+SKILL_0052,Rag Systems,Other Technical Skills
+SKILL_0053,React,Programming & Frameworks
+SKILL_0054,Redis,Data Engineering & Cloud
+SKILL_0055,SQL,Data Analysis & BI
+SKILL_0056,Scikit-Learn,AI / ML & Advanced Analytics
+SKILL_0057,Snowflake,Data Engineering & Cloud
+SKILL_0058,Spring Boot,Programming & Frameworks
+SKILL_0059,Statistics,AI / ML & Advanced Analytics
+SKILL_0060,System Design,Data Engineering & Cloud
+SKILL_0061,Tableau,Data Analysis & BI
+SKILL_0062,TensorFlow,AI / ML & Advanced Analytics
+SKILL_0063,Transformers,AI / ML & Advanced Analytics
+SKILL_0064,Vector Databases,Other Technical Skills
+SKILL_0065,XGBoost,AI / ML & Advanced Analytics
