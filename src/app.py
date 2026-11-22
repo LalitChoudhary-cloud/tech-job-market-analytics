@@ -59,26 +59,13 @@ st.markdown("""
         font-weight: 700;
         color: #0F172A;
     }
-    /* Fix Plotly Tooltip Hover Visibility: white text on dark navy background */
-    .hovertext text, .plotly .hovertext text, .hoverlayer text {
-        fill: #FFFFFF !important;
-        color: #FFFFFF !important;
-    }
-    .hoverlayer .hovertext path {
-        fill: #0F172A !important;
-        stroke: #38BDF8 !important;
-    }
-    /* Ensure numbers outside chart bars are always dark and visible */
-    .plot-container .bar .textpoint text {
-        fill: #0F172A !important;
-        font-weight: 600 !important;
-    }
 </style>
 """, unsafe_allow_html=True)
 
 
 def render_chart(fig):
     """Render Plotly chart with high-contrast, crystal-clear hover tooltips and readable labels."""
+    # 1. Update layout defaults
     fig.update_layout(
         template="plotly_white",
         paper_bgcolor="rgba(0,0,0,0)",
@@ -92,6 +79,15 @@ def render_chart(fig):
             bordercolor="#38BDF8"
         )
     )
+    # 2. Explicitly force dark background & white text on EVERY trace (Pie, Donut, Bar, etc.)
+    fig.for_each_trace(lambda trace: trace.update(
+        hoverlabel=dict(
+            bgcolor="#0F172A",
+            font_color="#FFFFFF",
+            font_size=13,
+            bordercolor="#38BDF8"
+        )
+    ))
     st.plotly_chart(fig, use_container_width=True, theme=None)
 
 
@@ -196,7 +192,12 @@ if page == "1. Executive Overview":
             title="<b>Job Distribution by Tech Role</b>",
             color_discrete_sequence=px.colors.qualitative.Safe
         )
-        fig_role.update_traces(textposition="inside", textinfo="percent+label", textfont=dict(color="#FFFFFF", size=12))
+        fig_role.update_traces(
+            textposition="inside",
+            textinfo="percent+label",
+            textfont=dict(color="#0F172A", size=12),
+            hovertemplate="<b>%{label}</b><br>Total Jobs: %{value:,}<br>Share: %{percent}<extra></extra>"
+        )
         render_chart(fig_role)
 
     with col2:
