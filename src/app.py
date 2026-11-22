@@ -59,8 +59,40 @@ st.markdown("""
         font-weight: 700;
         color: #0F172A;
     }
+    /* Fix Plotly Tooltip Hover Visibility: white text on dark navy background */
+    .hovertext text, .plotly .hovertext text, .hoverlayer text {
+        fill: #FFFFFF !important;
+        color: #FFFFFF !important;
+    }
+    .hoverlayer .hovertext path {
+        fill: #0F172A !important;
+        stroke: #38BDF8 !important;
+    }
+    /* Ensure numbers outside chart bars are always dark and visible */
+    .plot-container .bar .textpoint text {
+        fill: #0F172A !important;
+        font-weight: 600 !important;
+    }
 </style>
 """, unsafe_allow_html=True)
+
+
+def render_chart(fig):
+    """Render Plotly chart with high-contrast, crystal-clear hover tooltips and readable labels."""
+    fig.update_layout(
+        template="plotly_white",
+        paper_bgcolor="rgba(0,0,0,0)",
+        plot_bgcolor="rgba(0,0,0,0)",
+        font=dict(color="#0F172A", family="Segoe UI, Inter, sans-serif"),
+        hoverlabel=dict(
+            bgcolor="#0F172A",
+            font_size=13,
+            font_color="#FFFFFF",
+            font_family="Segoe UI, Inter, sans-serif",
+            bordercolor="#38BDF8"
+        )
+    )
+    st.plotly_chart(fig, use_container_width=True, theme=None)
 
 
 # -----------------------------------------------------------------------------
@@ -164,8 +196,8 @@ if page == "1. Executive Overview":
             title="<b>Job Distribution by Tech Role</b>",
             color_discrete_sequence=px.colors.qualitative.Safe
         )
-        fig_role.update_traces(textposition="inside", textinfo="percent+label")
-        st.plotly_chart(fig_role, use_container_width=True)
+        fig_role.update_traces(textposition="inside", textinfo="percent+label", textfont=dict(color="#FFFFFF", size=12))
+        render_chart(fig_role)
 
     with col2:
         sal_by_role = df.groupby("role_category")["avg_salary_lpa"].mean().reset_index()
@@ -181,8 +213,8 @@ if page == "1. Executive Overview":
             color="Avg Salary (INR LPA)",
             color_continuous_scale="Blues"
         )
-        fig_sal.update_traces(texttemplate='₹%{x:.1f} LPA', textposition='outside')
-        st.plotly_chart(fig_sal, use_container_width=True)
+        fig_sal.update_traces(texttemplate='₹%{x:.1f} LPA', textposition='outside', textfont=dict(color="#0F172A", size=12))
+        render_chart(fig_sal)
 
     # Charts Row 2: Monthly Hiring Trend & Top Hiring Companies
     col3, col4 = st.columns([1, 1])
@@ -197,7 +229,7 @@ if page == "1. Executive Overview":
             line_shape="spline"
         )
         fig_trend.update_traces(line_color="#2563EB", marker_size=8)
-        st.plotly_chart(fig_trend, use_container_width=True)
+        render_chart(fig_trend)
 
     with col4:
         top_comp = df["company"].value_counts().head(10).reset_index()
@@ -212,7 +244,7 @@ if page == "1. Executive Overview":
             color_continuous_scale="Viridis"
         )
         fig_comp.update_layout(yaxis=dict(autorange="reversed"))
-        st.plotly_chart(fig_comp, use_container_width=True)
+        render_chart(fig_comp)
 
 
 # -----------------------------------------------------------------------------
@@ -254,7 +286,7 @@ elif page == "2. Role Comparison":
             color_discrete_sequence=px.colors.qualitative.Prism
         )
         fig_exp_role.update_layout(yaxis_title="Share of Role (%)")
-        st.plotly_chart(fig_exp_role, use_container_width=True)
+        render_chart(fig_exp_role)
 
     with c2:
         # Industry distribution per role
@@ -265,7 +297,7 @@ elif page == "2. Role Comparison":
             title="<b>Hiring Demand by Industry & Role</b>",
             color_discrete_sequence=px.colors.qualitative.Bold
         )
-        st.plotly_chart(fig_ind, use_container_width=True)
+        render_chart(fig_ind)
 
 
 # -----------------------------------------------------------------------------
@@ -296,7 +328,7 @@ elif page == "3. Skills Intelligence":
             color_continuous_scale="Purples"
         )
         fig_top_s.update_layout(yaxis=dict(autorange="reversed"))
-        st.plotly_chart(fig_top_s, use_container_width=True)
+        render_chart(fig_top_s)
 
     with col_s2:
         # Cross-role skill penetration matrix
@@ -311,7 +343,7 @@ elif page == "3. Skills Intelligence":
             title="<b>Skill Matrix: Penetration % Within Role</b>",
             color_continuous_scale="Blues"
         )
-        st.plotly_chart(fig_matrix, use_container_width=True)
+        render_chart(fig_matrix)
 
 
 # -----------------------------------------------------------------------------
@@ -332,7 +364,7 @@ elif page == "4. Salary Intelligence":
             points="outliers"
         )
         fig_box.update_layout(showlegend=False, xaxis_title="Role", yaxis_title="Average Salary (₹ LPA)")
-        st.plotly_chart(fig_box, use_container_width=True)
+        render_chart(fig_box)
 
     with c_sal2:
         # Company Tier Impact
@@ -346,7 +378,7 @@ elif page == "4. Salary Intelligence":
             title="<b>Compensation by Employer Tier (₹ LPA)</b>"
         )
         fig_tier.update_layout(xaxis_title="Employer Tier", yaxis_title="Avg Salary (₹ LPA)")
-        st.plotly_chart(fig_tier, use_container_width=True)
+        render_chart(fig_tier)
 
     # Scatter: Experience vs Salary
     fig_scatter = px.scatter(
@@ -358,7 +390,7 @@ elif page == "4. Salary Intelligence":
         title="<b>Experience vs. Salary Correlation & Regression Fit</b>",
         labels={"experience_avg": "Years of Experience", "avg_salary_lpa": "Average Salary (₹ LPA)"}
     )
-    st.plotly_chart(fig_scatter, use_container_width=True)
+    render_chart(fig_scatter)
 
 
 # -----------------------------------------------------------------------------
@@ -384,8 +416,8 @@ elif page == "5. Geographic & Hiring Trends":
             color_continuous_scale="Teal",
             title="<b>Job Volume & Average Pay by Indian City</b>"
         )
-        fig_city_p.update_traces(textposition="outside")
-        st.plotly_chart(fig_city_p, use_container_width=True)
+        fig_city_p.update_traces(textposition="outside", textfont=dict(color="#0F172A", size=12))
+        render_chart(fig_city_p)
 
     with g2:
         # Role share in cities
@@ -396,7 +428,7 @@ elif page == "5. Geographic & Hiring Trends":
             title="<b>Role Composition Across Indian Tech Hubs (%)</b>",
             color_discrete_sequence=px.colors.qualitative.Vivid
         )
-        st.plotly_chart(fig_city_role, use_container_width=True)
+        render_chart(fig_city_role)
 
     # Raw Data Explorer & Download
     st.markdown("---")
