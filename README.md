@@ -1,10 +1,14 @@
 # Tech Job Market & Salary Intelligence Platform (India)
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://tech-job-market-analytics-y7eauzujq64w4xjehrsxel.streamlit.app/)
 [![Python](https://img.shields.io/badge/Python-3.11%20%7C%203.12%20%7C%203.13-blue.svg)](https://www.python.org/)
 [![SQL](https://img.shields.io/badge/SQL-PostgreSQL%20%7C%20SQLite%20%7C%20MySQL-orange.svg)]()
 [![Power BI](https://img.shields.io/badge/Power%20BI-DAX%20%26%20Data%20Modeling-yellow.svg)]()
-[![Streamlit](https://img.shields.io/badge/Streamlit-Live%20Dashboard-FF4B4B.svg)](https://streamlit.io/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-Live%20Dashboard-FF4B4B.svg)](https://tech-job-market-analytics-y7eauzujq64w4xjehrsxel.streamlit.app/)
 [![Machine Learning](https://img.shields.io/badge/ML-XGBoost%20%7C%20Scikit--Learn-green.svg)]()
+
+> 🌐 **Live Interactive Web App**: [**Launch Tech Job Market Platform**](https://tech-job-market-analytics-y7eauzujq64w4xjehrsxel.streamlit.app/)  
+> *(No installation needed — test interactive role slicers, salary curves, and cross-skill matrices live on Streamlit Cloud)*
 
 An end-to-end **Data Analytics & Business Intelligence platform** analyzing tech hiring demand, compensation benchmarks, and skill dynamics across **6,500+ Indian job postings** for four key roles:
 1. **Software Development Engineer (SDE)**
@@ -85,6 +89,10 @@ python sql/run_sql_analysis.py
 
 ### 4. Launch Interactive Streamlit BI Dashboard
 ```bash
+# Option A: Visit the live web app directly:
+# https://tech-job-market-analytics-y7eauzujq64w4xjehrsxel.streamlit.app/
+
+# Option B: Run locally:
 streamlit run src/app.py
 ```
 
