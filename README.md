@@ -51,6 +51,7 @@ tech-job-market-analytics/
 │       └── cleaner.py            <- End-to-End Data Cleaning & Normalization Pipeline
 │
 ├── powerbi/
+│   ├── tech_job_market_analytics.pbix <- Interactive Power BI Desktop Dashboard File (.pbix)
 │   ├── dax_measures.dax          <- Complete DAX KPI & Growth Calculation Library
 │   ├── dashboard_spec.md         <- 5-Page Visual Layout & Slicer Specification Guide
 │   └── data_model_guide.md       <- Star-Schema ERD & Relationship Documentation
